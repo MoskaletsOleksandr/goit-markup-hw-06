@@ -970,7 +970,7 @@ input:-webkit-autofill {
 }
 
 .policy-checkbox:focus + .policy-checkbox-icon {
-  border-color: var(--active-link-color);
+  outline: 2px solid #2196f3;
 }
 .policy-link {
   position: relative;
