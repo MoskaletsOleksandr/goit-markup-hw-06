@@ -968,6 +968,10 @@ input:-webkit-autofill {
   border-color: transparent;
   background-color: #2196f3;
 }
+
+.policy-checkbox:focus + .policy-checkbox-icon {
+  border-color: var(--active-link-color);
+}
 .policy-link {
   position: relative;
 
